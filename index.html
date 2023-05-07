@@ -1,75 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HTMl 5 form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMl Table Class 4 Assignment</title>
 </head>
 <body>
 
-    <!-- HTML 5 Form Creation For My website -->
+    <!-- Normal HTML table  -->
 
-    <form action="#">
-        
-        <!-- Basic Info Setion -->
-        <h1>My Form</h1>
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">  <br><br>
+   
 
-        <input type="email" placeholder="Email Address">
-        <input type="password" placeholder="password"> <br><br>
+   <table border="1px">
+        <caption><h2>Book list</h2></caption>
+        <tr>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Weeks on List</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>The Miror & the Light</td>
+            <td>Hilary Mantel</td>
+            <td>New this Week</td>
+            <td>500tk</td>
+        </tr>
+        <tr>
+            <td>Journey of the Pharohs</td>
+            <td>Clive Cusler and Graham Brown</td>
+            <td>New this Week</td>
+            <td>600tk</td>
+        </tr>
+        <tr>
+            <td>Where the Crawdads Sing</td>
+            <td>Delia Owens</td>
+            <td>79</td>
+            <td>300tk</td>
+        </tr>
+        <tr>
+            <td>American Dirt</td>
+            <td>Jeanine Cummings</td>
+            <td>8</td>
+            <td>550tk</td>
+        </tr>
+        <tr>
+            <td>Little Fires Everywhere</td>
+            <td>Cleste Ng</td>
+            <td>57</td>
+            <td>400tk</td>
+        </tr>
+   </table>
 
-        <input type="number" placeholder="Phone Number"> <br><br>
+   <!-- HTML table with Rowspan -->
 
-        
-        <!-- Select Option Setion -->
-        <h2>Where form-</h2>
-        <select name="" id="">
-            <option value="dhaka">Dhaka</option>
-            <option value="dhaka">Madaripur</option>
-            <option value="dhaka">Barishal</option>
-            <option value="dhaka">Savar</option>
-            <option value="dhaka">Chattogram</option>
-            <option value="dhaka">Comilla</option>
-        </select>
-        
-        <!-- Gender Setion -->
-        <h2>Gender</h2>
-        <input type="radio" name="gender" value="Male"> Male
-        <input type="radio" name="gender" value="Female"> Female
-        <input type="radio" name="gender" value="Others"> Others
+   <h1>Example of Table Rowspan</h1>
 
-        <!-- Service Setion -->
-        <h2>Services</h2>
-        <input type="checkbox" name="services" value="HTML"> HTML
-        <input type="checkbox" name="services" value="CSS"> CSS
-        <input type="checkbox" name="services" value="Javascript"> Javascript
-        <input type="checkbox" name="services" value="PHP"> PHP
-
-        <!-- Blood Setion -->
-        <h2>Blood Group</h2>
-        <select name="" id="">
-            <option value="O+">O+</option>
-            <option value="A+">A+</option>
-            <option value="AB-">AB-</option>
-        </select>
-        
-        <!-- Color Setion -->
-        <h2>Favourite color</h2>
-        <input type="color">
-        
-        <!-- DoB Setion -->
-        <h2>Date of Birth:</h2>
-        <input type="date">
-
-        <!-- CV Setion -->
-        <h2>upload CV</h2>
-        <input type="file"> <br><br>
-        
-        <!-- Submit OR Reset Setion -->
-        <input type="submit" value="Send"> 
-        <input type="reset" value="Reset"> 
+   <table border="1px">
+        <tr>
+            <th rowspan="3">Users Information</th>
+            <td>1</td>
+            <td>Rifat Ara</td>
+            <td>rifatara@mail.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Akash</td>
+            <td>akashasis@mail.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Yasin Arafat</td>
+            <td>yasinarafat@mail.com</td>
+        </tr>
+   </table>
 
 
-    </form>
+   <!-- HTML Table with Colspan -->
+
+   <h1>Example of Table Colspan</h1>
+
+   <table border="1px">
+    <tr>
+        <th colspan="3">Users Information</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>John mitha</td>
+        <td>johna@mail.com</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Risji Parkar</td>
+        <td>rparker@mail.com</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Joni Rambo</td>
+        <td>rambo@mail.com</td>
+    </tr>
+</table>
 
 </body>
 </html>
